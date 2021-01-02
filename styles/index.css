@@ -1,0 +1,83 @@
+#content {
+    width: 960px;
+}
+
+#foto_principal_1 {
+    width: 960px;
+    height: 960px;
+    background-image: url("../img/imagen19.jpg");
+    background-size: 100% 100%;
+    clear: both;
+}
+
+#actividades {
+    width: 526px;
+    height: 526px;
+    margin-top: 0px;
+    margin-right: 200px;
+    float: right;
+}
+#actividades img {
+    width: 200px;
+    border: 3px solid #fff;
+}
+
+#actividades img:hover {
+    width: 526px;
+    height: 526px;
+}
+
+/*********************** media ********************/
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+    #content {
+        width: 580px;
+    }
+    
+    #foto_principal_1 {
+        width: 580px; 
+        height: 580px; 
+    }
+    
+    #actividades {
+        margin-top: 25px;
+        margin-right: 25px;
+        border: none;
+    }
+
+}/* fin media 600 a 1023*/
+
+/*//////////////////////////////////////////*/
+
+@media all and (max-width: 599px) {
+    #content {
+        margin-top: -16px;
+        width: 98%;
+    }
+    
+    #foto_principal_1 {
+        width:100%;
+        height: auto;
+        background-image: none;
+        background-size: none;
+        clear: both;
+    }
+    
+    #actividades {
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        margin-right: 0px;
+        border: none;
+        float: right;
+    }
+
+    #actividades img {
+        width: 100%;
+        border: none;
+        margin-bottom: -4px;
+    }
+}/* fin media 600*/
+
+

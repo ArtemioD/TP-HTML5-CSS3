@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/contacto.css">
+
+    <link rel="icon" href="img/logo.ico">
+
+    <title>San Cristobal</title>
+</head>
+
+<body>
+
+    <!--********************************** header **********************************-->
+
+    <header>
+        <div>
+            <div id="logo" class="logo"></div>
+            <div id="nombre" class="nombre">
+                <h1>Club Deportivo<span class="pix"><span class="pix_gr">S</span>an Cristobal</span></h1>
+            </div>
+        </div>
+    </header>
+
+    <!--********************************** nav **********************************-->
+
+    <nav id="botonera">
+        <ul class="botonera">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="galeria.html">Actividades</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!--********************************** section **********************************-->
+
+    <section id="container">
+        <br>
+        <div id="contact">
+            <form action="#" method="post">
+            <h2>Contáctanos:</h2>
+            <label for="nombr">Nombre:</label>
+            <input id="nombr" type="text" name="nombr" placeholder="Nombre y Apellido" required="" />
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+            <input id="submit" type="submit" name="submit" value="Enviar" />
+        </form>
+        </div>
+        <div id="mapa">
+            <br>
+            <h2>Estamos aquí</h2>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13132.381646085396!2d-58.4051184!3d-34.6270291!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd9129f3c8cd9feeb!2sClub%20Deportivo%20San%20Cristobal!5e0!3m2!1ses-419!2sar!4v1606596934989!5m2!1ses-419!2sar" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div id="direc">
+                <p>Constitución 2884<br>CABA</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!--********************************** footer **********************************-->
+
+    <footer>
+        <div id="datos"></div>
+        <div id="imagen_footer">
+            <div id="logo_footer" class="logo"></div>
+            <div id="nombre_footer" class="nombre">
+                <h2>Club Deportivo<span class="pix"><span class="pix_gr">S</span>an Cristobal</span></h2>
+                <div id="redes">
+                    <a href="https://www.facebook.com/sancristobalclubdeportivo" target="_blank"><img
+                            src="img/facebook.svg"  alt="facebook"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="img/gorjeo.svg" alt="twitter"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.svg" alt="instagram"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.png" alt="youtube"></a>  
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

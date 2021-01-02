@@ -1,0 +1,516 @@
+#container {
+    width: 960px;
+    height: 3018px;
+    background-color: rgb(255, 255, 255);
+}
+
+h2,
+h3 {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    color: #2e2882
+}
+
+h3 {
+    padding-bottom: 25px;
+    color: #ffffff
+}
+
+table {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 960px;
+    height: 400px;
+    padding: 25px;
+    border: 2px solid #fff;
+}
+
+th {
+    padding: 15px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-right-width: 3px;
+    border-bottom-width: 4px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #030e13;
+    border-bottom-color: #000000;
+    font-family: “Trebuchet MS”, Arial;
+}
+
+
+tr {
+    color: #fff;
+    font-size: 14px;
+}
+
+.azul {
+    background-color: #2e2882;
+}
+
+.rojo {
+    background-color: #e71919;
+}
+
+#galeria_fotos {
+    width: 960px;
+    height: 2150px;
+    background-image: linear-gradient(#2e2882, #e71919);
+}
+
+.fotos_gal {
+    margin: 10px;
+    /*background-size: 100% 100%;*/
+    border: 3px solid #fff;
+    box-shadow: 4px 5px 10px 0 rgba(10, 5, 2, 3);
+}
+
+#foto_1 {
+    width: 320px;
+    height: 341px;
+    float: left;    
+}
+
+#foto_2 {
+    width: 250px;
+    height: 333px;
+    float: left;
+    margin-left: 15px;
+}
+
+#foto_3 {
+    width: 300px;
+    height: 165px;
+    float: right;
+    margin-right: 15px;
+}
+
+#foto_4 {
+    width: 300px;
+    height: 362px;
+    float: right;
+    margin-right: 15px;
+}
+
+#foto_5 {
+    width: 300px;
+    height: 292px;
+    float: left;
+}
+
+#foto_6 {
+    width: 275px;
+    height: 580px;
+    float: left;
+}
+
+#foto_7 {
+    width: 300px;
+    height: 247px;
+    float: right;
+    margin-right: 15px;
+}
+
+#foto_8 {
+    width: 300px;
+    height: 270px;
+    float: right;
+    margin-right: 15px;
+}
+
+#foto_9 {
+    margin-top: -270px;
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+
+#foto_10 {
+    width: 300px;
+    height: 270px;
+    float: left;
+}
+
+#foto_11 {
+    margin-top: -130px;
+    width: 275px;
+    height: 206px;
+    float: left;
+
+}
+
+#foto_12 {
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin-right: 15px;
+}
+
+#foto_13 {
+    width: 275px;
+    height: 367px;
+    float: left;
+}
+
+#foto_14 {
+    width: 300px;
+    height: 172px;
+    float: right;
+    margin-right: 15px;
+}
+
+#foto_15 {
+    margin-top: -175px;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+#foto_16 {
+    width: 600px;
+    height: 338px;
+    float: left;
+}
+
+#foto_17 {
+    width: 300px;
+    height: 211px;
+    float: right;
+    margin-right: 15px;
+}
+
+/*********************** media ********************/
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+    #container {
+        width: 580px;
+        height: auto;
+    }
+    
+    h2,
+    h3 {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
+    
+    table {
+        width: 580px;
+        height: auto;
+        padding: 0px;
+    }
+    
+    th {
+        padding: 0px;
+        font-size: 15px;
+        border-right-width: 1px;
+        border-bottom-width: 2px;
+    }
+    
+    tr {
+        font-size: 9px;
+        font-weight: bold;
+    }
+    
+    #galeria_fotos {
+        width: 580px;
+        height: 2800px;
+    }
+    
+    .fotos_gal {
+        margin: 10px 0;
+    }
+    
+    #foto_1 {
+        width: 270px;
+        height: auto; 
+        margin-left: 15px;
+    }
+
+    #foto_1 img {
+        width: 270px;
+        margin-bottom: -3px;
+    }
+    
+    #foto_2 {
+        float: right;
+        margin-right: 15px;
+    }
+    
+    #foto_3 {
+        width: 270px;
+        height: 149px;
+        float: left;
+        margin-left: 15px;
+        margin-top: -40px;
+    }
+
+    #foto_3 img {
+        width: 270px;
+    }
+    
+    #foto_4 {
+        margin-top: 20px;
+        width: 250px;
+        height: 303px;
+    }
+
+    #foto_4 img {
+        width: 250px;
+    }
+    
+    #foto_5 {
+        width: 270px;
+        height: 263px; 
+        margin-left: 15px;
+    }
+
+    #foto_5 img {
+        width: 270px;
+    }
+    
+    #foto_6 {
+        margin-top: 20px;
+        width: 250px;
+        height: 527px; 
+        float: right; 
+        margin-right: 15px;
+    }
+
+    #foto_6 img {
+        width: 250px;
+    }
+    
+    #foto_7 {
+        width: 270px;
+        height: 222px; 
+        float: left;
+        margin-left: 15px;
+    }
+
+    #foto_7 img {
+        width: 270px;
+    }
+    
+    #foto_8 {
+        width: 270px;
+        height: 243px; 
+        float: left;
+        margin-left: 15px;
+    }
+
+    #foto_8 img {
+        width: 270px;
+    }
+    
+    #foto_9 {
+        margin-top: 20px;
+        width: 250px; 
+        height: 333px; 
+        float: right;
+        margin-right: 15px;
+    }
+
+    #foto_9 img {
+        width: 250px;
+    }
+    
+    #foto_10 {
+        width: 270px;
+        height: 243px;
+        margin-left: 15px;
+    }
+
+    #foto_10 img {
+        width: 270px;
+    }
+    
+    #foto_11 {
+        margin-top: 10px;
+        width: 270px;
+        height: 202px;
+        margin-left: 15px;
+    }
+
+    #foto_11 img {
+        width: 270px;
+    }
+    
+    #foto_12 {
+        margin-top: 20px;
+        width: 250px;
+        height: 333px; 
+    }
+
+    #foto_12 img {
+        width: 250px;
+    }
+    
+    #foto_13 {
+        width: 270px;
+        height: 360px; 
+        margin-left: 15px;
+    }
+
+    #foto_13 img {
+        width: 270px;
+    }
+    
+    #foto_14 {
+        margin-top: 20px;
+        width: 250px;
+        height: 143px; 
+    }
+
+    #foto_14 img {
+        width: 250px;
+    }
+    
+    #foto_15 {
+        margin-top: 10px;
+        width: 270px;
+        height: 180px;
+        float: right;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    #foto_15 img {
+        width: 270px;
+    }
+    
+    #foto_16 {    
+        width: 550px;
+        height: 312px;
+        float: none;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    #foto_16 img {
+        width: 544px; 
+    }
+    
+    #foto_17 {
+        margin-top: -519px;
+        width: 250px;
+        height: 176px;
+        float: right; 
+        margin-left: 15px;
+    }
+
+    #foto_17 img {
+        width: 250px;
+    }
+    
+}/* fin media 600 a 1023*/
+
+/*//////////////////////////////////////////*/
+
+@media all and (max-width: 599px) {
+
+    #container {
+        margin-top: -15px;
+        width: 98%;
+        height: auto; 
+    }
+    
+    h2,
+    h3 {
+        padding-top: 15px;
+        font-size: 30px; 
+    }
+    
+    table {
+        width: 90%;
+        height: auto;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    table tr {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #000;
+        margin: 10px;
+    }
+
+    table .dias_semana {
+        display: none;
+    }
+
+    table td[data-title] {
+        display: flex;
+    }
+
+    table td[data-title]::before {
+        content: attr(data-title);
+        width: 120px;  
+        font-weight: bold; 
+        text-align: left;
+    }
+    
+    #galeria_fotos {
+        width: 100%;
+        height: auto; 
+        padding-bottom: 5px;
+    }
+    
+    .fotos_gal {
+        border: none;
+        box-shadow: none;
+    }
+
+    .fotos_gal img {
+        max-width: 100%;
+        border: 3px solid #fff;
+        box-shadow: 4px 5px 10px 0 rgba(10, 5, 2, 3);
+    }
+    
+    #foto_1 {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        height: auto; 
+        float: none; 
+    }
+    #foto_1 img {  
+        width: 320px;    
+    }
+    
+    #foto_2,
+    #foto_3,
+    #foto_4,
+    #foto_5,
+    #foto_6,
+    #foto_7,
+    #foto_8,
+    #foto_9,
+    #foto_10,
+    #foto_11,
+    #foto_12,
+    #foto_13,
+    #foto_14,
+    #foto_15,
+    #foto_16,
+    #foto_17 {
+        margin: 10px auto ; 
+        width: 80%;
+        height: auto; 
+        float: none; 
+        margin-left: none; 
+        text-align: center; 
+    }
+    
+}/* fin media 600*/
+
